@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
-import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
-import AboutMe from './pages/AboutMe';
+import Contact from './pages/ContactFrom.js';
+import Portfolio from './pages/Portfolio.js';
+import Resume from './pages/Resume.js';
+import AboutMe from './pages/AboutMe.js';
 
 export default function PageContainer() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -20,13 +20,12 @@ export default function PageContainer() {
         if (currentPage === 'Contact') {
             return <Contact />
         };
-
-        const handlePageChange = (page) => setCurrentPage(page);
-        return (
-            <div>
-                <Navbar currentPage = {currentPage} handlePageChange = {handlePageChange} />
-                {renderPage()}
-            </div>
-        )
     }
+    const handlePageChange = (page) => setCurrentPage(page);
+    return (
+        <div>
+            <Navbar currentPage = {currentPage} handlePageChange = {handlePageChange} />
+            {renderPage()}
+        </div>
+    )
 }
