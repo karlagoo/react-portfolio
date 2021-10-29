@@ -8,7 +8,7 @@ export default function Resume() {
                 <div>
                     <div>
                     <h3>Front-End Proficiencies:</h3>
-                    <ul>
+                    <ul style={{listStyle: "none"}}>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
@@ -17,7 +17,7 @@ export default function Resume() {
                         <li>Bootsrap</li>
                     </ul>
                     <h3>Back-End Proficiencies:</h3>
-                    <ul>
+                    <ul style={{listStyle: "none"}}>
                         <li>API's</li>
                         <li>Node</li>
                         <li>Express</li>
