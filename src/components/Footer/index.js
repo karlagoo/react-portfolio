@@ -1,4 +1,8 @@
 import React from 'react';
+import './style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Footer() {
     const icons = [
@@ -18,7 +22,7 @@ export default function Footer() {
     return (
         <section>
             <footer className="container" style={{
-                position: "absolute",
+                position: "fixed",
                 width: "100%",
                 bottom: "0",
                 height:"2.5rem",
@@ -28,7 +32,7 @@ export default function Footer() {
                 <div className="Row">
                 {icons.map(icon =>
                 ( 
-                    <a href={icon.link} key={icon.name}><i> className={icon.name}</i></a>
+                    <a href={icon.link} key={icon.name}><i className={icon.name}></i></a>
                 )
                 )}
                 </div>
