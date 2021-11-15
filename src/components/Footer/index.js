@@ -23,7 +23,7 @@ export default function Footer() {
         <section>
             <footer className="container" style={{
                 position: "fixed",
-                width: "100%",
+                // width: "1000px",
                 bottom: "0",
                 height:"2.5rem",
                 alignItems: "center",
