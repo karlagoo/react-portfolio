@@ -1,10 +1,6 @@
 import React from 'react';
-import './style.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
-
-export default function Footer() {
+function Footer() {
     const icons = [
         {
             name: "fab fa-github",
@@ -21,23 +17,20 @@ export default function Footer() {
     ]
     return (
         <section>
-            <footer className="container" style={{
-                position: "fixed",
-                // width: "1000px",
-                bottom: "0",
-                height:"2.5rem",
-                alignItems: "center",
-                backgroundColor: "whitesmoke"
-            }}>
-                <div className="Row">
-                {icons.map(icon =>
-                ( 
-                    <a href={icon.link} key={icon.name}><i className={icon.name}></i></a>
-                )
-                )}
+            <footer className="container">
+                <div className="row">
+                    <div className="col-lg-8-mx-auth text-center">
+                        {icons.map(icon =>
+                        (
+                            <a href="{icon.link}" key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
+                        )
+                    )}
+                    </div>
                 </div>
             </footer>
         </section>
     )
 
 }
+
+export default Footer;
