@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Pdf from "../../assets/images/KarlaGoo_resume.pdf"
+import Pdf from "../../assets/images/resume2022.pdf"
 
 export default function Resume() {
     return (
