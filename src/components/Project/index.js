@@ -6,7 +6,7 @@ export default function Project({ project }) {
     return (
         <div>
             <div className='portfolio-box' key={name}>
-                <img src={require(`../../assets/images/projects/${name}.png`)}
+                <img src={require(`../../assets/images/portfolio/${name}.png`)}
                 />
                 <div>
                     <div>
