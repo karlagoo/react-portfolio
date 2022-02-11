@@ -1,10 +1,12 @@
 import React from 'react';
 
+
 function Footer() {
     const icons = [
         {
             name: "fab fa-github",
-            link: "http://github.com/karlagoo"
+            link: "http://github.com/karlagoo",
+            image:""
         },
         {
             name: "fab fa-linkedin",
@@ -19,10 +21,10 @@ function Footer() {
         <section>
             <footer className="container">
                 <div className="row">
-                    <div className="col-lg-8-mx-auth text-center">
+                    <div className="col-lg-8-mx-auto text-center">
                         {icons.map(icon =>
                         (
-                            <a href="{icon.link}" key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
+                            <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}>{icon.image}</i></a>
                         )
                     )}
                     </div>

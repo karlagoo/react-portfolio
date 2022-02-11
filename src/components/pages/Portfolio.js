@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Project from '../Projects';
-import Projects from '../Projects'
+import Projects from '../Projects';
 
 export default function Portfolio() {
-    const projects = useState([
+    const projects = ([
         {
             name: "Password-Generator",
             link: "https://karlagoo.github.io/Password-Generator/"
@@ -31,7 +31,7 @@ export default function Portfolio() {
     ])
 
     return (
-        <section>
+        <div>
             <div>
                 <h1 className="text-center margin top">Projects</h1>
                 <div className="row no-gutters popup-gellery">
@@ -43,6 +43,6 @@ export default function Portfolio() {
                     })}
                 </div>
             </div>
-        </section>
+        </div>
     )
 }

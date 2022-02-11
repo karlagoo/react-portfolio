@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import PageContainer from "./components/PageContainer.js";
 import Footer from "./components/Footer";
 

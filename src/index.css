@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  /* margin: 0; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -18,7 +18,14 @@ section {
   background-color: #B5C99A;
 }
 
+/* header */
+header {
+  padding: 3rem 0;
+  background-color: #B5C99A;
+}
+
 /* Footer */
+
 footer a {
   margin: 20pt;
 }
