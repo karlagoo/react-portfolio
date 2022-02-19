@@ -44,7 +44,7 @@ function Contact() {
         }
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value});
-            console.log('Hanlde Form', formState)
+            console.log('Handle Form', formState)
         }
     };
 

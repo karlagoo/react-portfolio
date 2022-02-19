@@ -13,27 +13,39 @@ export default function Portfolio() {
     const [projects] = useState([
         {
             name: "Password-Generator",
-            link: "https://karlagoo.github.io/Password-Generator/"
+            description: "HTML/CSS/JavaScript",
+            link: "https://karlagoo.github.io/Password-Generator/",
+            repo: "https://github.com/karlagoo/Create-a-random-password-"
         },
         {
             name: "Star_Spangled_Memer",
-            link: "https://p1t1-web-dev-wizards.github.io/Project1---horoscope-memes/"
+            description: "HTML/CSS/Materialize/JavaScript",
+            link: "https://p1t1-web-dev-wizards.github.io/Project1---horoscope-memes/",
+            repo: "https://github.com/p1t1-Web-Dev-Wizards/Project1---horoscope-memes"
         },
         {
             name: "Nanny-Poppins",
-            link: "https://nanny-poppins.herokuapp.com/"
+            description: "Handlebars/CSS/Bootstrap/JavaScript/AWS/Bootstrap",
+            link: "https://nanny-poppins.herokuapp.com/",
+            repo: "https://github.com/p2t4-require-espresso/nanny-poppins"
         },
         {
             name: "Budget-Tracker",
+            description: "NodeJS/Express/MongoDB/HTML/CSS",
             link: "https://budget-tracker-karlahw.herokuapp.com/",
+            repo: "https://github.com/karlagoo/Budget-Tracker"
         },
         {
             name: "Note-taker",
-            link: "https://note-taker-karla-goo.herokuapp.com/"
+            description: "Bootstrap/HTML/CSS/JavaScript",
+            link: "https://note-taker-karla-goo.herokuapp.com/",
+            repo: "https://github.com/karlagoo/Note-Taker"
         },
         {
             name: 'workout-tracker',
-            link: "https://workout-tracker-karla.herokuapp.com/"
+            description: "MongoDB/Mongoose/NodeJS/Bootstrap/JavaScript/HTML",
+            link: "https://workout-tracker-karla.herokuapp.com/",
+            repo: "https://github.com/karlagoo/Workout-Tracker"
         }
     ])
 
@@ -41,7 +53,7 @@ export default function Portfolio() {
         <div>
             <div>
                 <h1 className="text-center margin top">Projects</h1>
-                <div className="row no-gutters popup-gellery">
+                <div className="row no-gutters popup-gallery">
                     {projects.map((project)=>{
                         <Project 
                             project={project}

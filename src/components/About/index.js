@@ -10,7 +10,7 @@ function About() {
     const [currentPage] = useState(pages[0]);
 
     return (
-        <div className="masthead text-center text-white d-flex">
+        <div className="masthead text-center d-flex">
             <div className="container my-auto">
                 <div className="row">
                     <div className="col-lg-10 mx-auto">
