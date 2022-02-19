@@ -100,7 +100,7 @@ body {
 }
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-  color: #6B705C;
+  color: #cb997e;
 }
 #mainNav .navbar-nav > li.nav-link,
 #mainNav .navbar-nav > li.nav-link:focus {
@@ -114,11 +114,11 @@ body {
 /* LEFT OFF HERE */
 #mainNav .navbar-nav > li.nav-link:hover,
 #mainNav .navbar-nav > li.nav-link:focus:hover {
-  color: #f05f40;
+  color: #ddbea9;
 }
 #mainNav .navbar-nav > li.nav-link.active,
 #mainNav .navbar-nav > li.nav-link:focus.active {
-  color: #f05f40 !important;
+  color: #cb997e !important;
   background-color: transparent;
 }
 #mainNav .navbar-nav > li.nav-link.active:hover,
@@ -303,14 +303,14 @@ div.masthead p {
 }
 
 .btn-primary {
-  background-color: #f05f40;
-  border-color: #f05f40;
+  background-color: #6b705c;
+  border-color: #6b705c;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #a5a58d !important;
 }
 .btn-primary:active,
 .btn-primary:focus {
