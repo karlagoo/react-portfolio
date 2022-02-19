@@ -131,7 +131,7 @@ body {
     background-color: #fff;
   }
   #mainNav .navbar-brand {
-    color: #f05f40;
+    color: #6b705c;
   }
   #mainNav .navbar-brand:focus,
   #mainNav .navbar-brand:hover {
@@ -150,11 +150,11 @@ body {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #f05f40;
+    color: #6b705c;
   }
   #mainNav.navbar-shrink .navbar-brand:focus,
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+    color: #a5a58d;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-link:focus {
@@ -162,7 +162,7 @@ body {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-link:focus:hover {
-    color: #f05f40;
+    color: #a5a58d;
   }
 }
 
