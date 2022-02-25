@@ -1,4 +1,5 @@
 import React from 'react';
+import { removeHyphensAndCapitalize } from '../../utils/helpers';
 
 export default function Project({ project }) {
     const { name, link, description, repo } = project;
@@ -6,7 +7,10 @@ export default function Project({ project }) {
     return (
         <div className = "col-lg-4 col-sm-6">
             <div className='portfolio-box' key={name}>
-                <img src={require(`../../assets/images/portfolio/${name}.png`)}
+                <img 
+                src={require(`../../assets/images/portfolio/${name}.png`)}
+                alt={removeHyphensAndCapitalize(name)}
+                className="img-fluid"
                 />
                 <div className="portfolio-box-caption">
                     <div className="portfolio-box-caption-content">

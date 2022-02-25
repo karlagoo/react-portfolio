@@ -66,19 +66,5 @@ export default function Portfolio() {
                 
             </div>
         </section>
-
-        // <div>
-        //     <div>
-        //         <h1 className="text-center margin top">Projects</h1>
-        //         <div className="row no-gutters popup-gallery">
-        //             {projects.map((project)=>{
-        //                 <Project 
-        //                     project={project}
-        //                     key={"project"}
-        //                 />
-        //             })}
-        //         </div>
-        //     </div>
-        // </div>
     )
 }
