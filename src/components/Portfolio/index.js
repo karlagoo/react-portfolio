@@ -47,21 +47,38 @@ export default function Portfolio() {
             link: "https://workout-tracker-karla.herokuapp.com/",
             repo: "https://github.com/karlagoo/Workout-Tracker"
         }
-    ])
+    ]);
 
     return (
-        <div>
-            <div>
-                <h1 className="text-center margin top">Projects</h1>
+        <section className="p-0">
+            <div className="container-fluid p-0">
+                <h1 className="text-center margin-top">{capitalizeFirstLetter(currentPage.name)}</h1>
+                <hr className="my-4" />
                 <div className="row no-gutters popup-gallery">
-                    {projects.map((project)=>{
-                        <Project 
-                            project={project}
-                            key={"project"}
-                        />
-                    })}
-                </div>
+                   
+                        {projects.map((project, idx) => (
+                            <Project
+                                project={project}
+                                key={"project" + idx}
+                            />
+                        ))}
+                    </div>
+                
             </div>
-        </div>
+        </section>
+
+        // <div>
+        //     <div>
+        //         <h1 className="text-center margin top">Projects</h1>
+        //         <div className="row no-gutters popup-gallery">
+        //             {projects.map((project)=>{
+        //                 <Project 
+        //                     project={project}
+        //                     key={"project"}
+        //                 />
+        //             })}
+        //         </div>
+        //     </div>
+        // </div>
     )
 }
