@@ -19,7 +19,7 @@ hr.light {
 }
 
 a {
-  color: #B7B7A4;
+  color: #a5a58d;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -111,7 +111,6 @@ body {
   color: #212529;
 }
 
-/* LEFT OFF HERE */
 #mainNav .navbar-nav > li.nav-link:hover,
 #mainNav .navbar-nav > li.nav-link:focus:hover {
   color: #ddbea9;
@@ -227,7 +226,7 @@ div.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(203, 153, 126);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -344,12 +343,12 @@ a.white-link {
 }
 
 .form-control:hover {
-  border-color: #f05f40;
+  border-color: #6b705c;
 }
 
 .form-control:focus {
   color: #495057;
-  border-color: #f05f40;
+  border-color: #b7b7a4;
   box-shadow: 0 0.313rem 0.719rem rgba(0, 123, 255, 0.1), 0 0.156rem 0.125rem rgba(0, 0, 0, 0.06);
 }
 

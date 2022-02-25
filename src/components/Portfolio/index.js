@@ -14,7 +14,7 @@ export default function Portfolio() {
         {
             name: "Password-Generator",
             description: "HTML/CSS/JavaScript",
-            link: "https://karlagoo.github.io/Password-Generator/",
+            link: "https://karlagoo.github.io/Create-a-random-password-/",
             repo: "https://github.com/karlagoo/Create-a-random-password-"
         },
         {
