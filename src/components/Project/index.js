@@ -8,7 +8,7 @@ export default function Project({ project }) {
         <div className = "col-lg-4 col-sm-6">
             <div className='portfolio-box' key={name}>
                 <img 
-                src={require(`../../assets/images/portfolio/${name}.png`)}
+                src={require(`../../assets/images/portfolio/${name}.png`).default}
                 alt={removeHyphensAndCapitalize(name)}
                 className="img-fluid"
                 />

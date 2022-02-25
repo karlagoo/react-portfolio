@@ -18,7 +18,7 @@ export default function Portfolio() {
             repo: "https://github.com/karlagoo/Create-a-random-password-"
         },
         {
-            name: "Star_Spangled_Memer",
+            name: "Star-Spangled-Memer",
             description: "HTML/CSS/Materialize/JavaScript",
             link: "https://p1t1-web-dev-wizards.github.io/Project1---horoscope-memes/",
             repo: "https://github.com/p1t1-Web-Dev-Wizards/Project1---horoscope-memes"
@@ -30,7 +30,7 @@ export default function Portfolio() {
             repo: "https://github.com/p2t4-require-espresso/nanny-poppins"
         },
         {
-            name: "Budget-Tracker",
+            name: 'Budget-Tracker',
             description: "NodeJS/Express/MongoDB/HTML/CSS",
             link: "https://budget-tracker-karlahw.herokuapp.com/",
             repo: "https://github.com/karlagoo/Budget-Tracker"
