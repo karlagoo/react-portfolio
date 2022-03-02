@@ -50,9 +50,7 @@ function Contact() {
 
     return(
         <section className="bg-dark">
-            <br />
-            <br />
-            <br />
+            <div className="masthead text-center d-flex">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-10 mx-auto text-white mb-4">
@@ -108,6 +106,7 @@ function Contact() {
                         </h4>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     );
