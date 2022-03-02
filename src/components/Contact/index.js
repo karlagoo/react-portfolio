@@ -50,6 +50,9 @@ function Contact() {
 
     return(
         <section className="bg-dark">
+            <br />
+            <br />
+            <br />
             <div className="container">
                 <div className="row">
                     <div className="col-lg-10 mx-auto text-white mb-4">
@@ -100,7 +103,7 @@ function Contact() {
                         </form>
                     
                         <h4>
-                            Karla Goo <br />
+                        <br />
                             Or simply send me an email at:  <a href="mailto:karla_goo@yahoo.com"> karla_goo@yahoo.com</a>
                         </h4>
                     </div>

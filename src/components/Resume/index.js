@@ -12,6 +12,9 @@ export default function Resume() {
 
     return (
         <section className="bg-dark">
+            <br />
+            <br />
+            <br />
             <div className= "container">
                 <div className = "row">
                     <div className = "col-lg-10 mx-auto text-white mb-4">
