@@ -12,6 +12,13 @@ export default function Portfolio() {
     const [currentPage] = useState(pages[0]);
     const [projects] = useState([
         {
+            name: "Enlace",
+            description: "Express/React/JavaScript/Bootstrapp/Git/GraphQL/Socket.io",
+            link: "https://enlace-thunder-cats.herokuapp.com/",
+            repo: "https://github.com/Enlace-Team1/enlace"
+
+        },
+        {
             name: "Password-Generator",
             description: "HTML/CSS/JavaScript",
             link: "https://karlagoo.github.io/Create-a-random-password-/",
