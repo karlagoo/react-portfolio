@@ -14,7 +14,7 @@ export default function Portfolio() {
         {
             name: "Enlace",
             description: "Express/React/JavaScript/Bootstrapp/Git/GraphQL/Socket.io",
-            link: "https://enlace.herokuapp.com/",
+            // link: "https://enlace.herokuapp.com/",
             repo: "https://github.com/karlagoo/enlace"
 
         },
