@@ -14,9 +14,9 @@ hr {
   border-color: #B7B7A4;
 }
 
-/* hr.light {
+hr.light {
   border-color: #fff;
-} */
+}
 
 a {
   color: #6b705c;
@@ -127,7 +127,7 @@ body {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: #fff;
+    background-color: #ffe5ec;
   }
   #mainNav .navbar-brand {
     color: #6b705c;
