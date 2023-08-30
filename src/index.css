@@ -19,13 +19,13 @@ hr.light {
 }
 
 a {
-  color: #6b705c;
+  color: #6b9080;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 a:hover {
-  color: #B7B7A4;
+  color: #a4c3b2;
 }
 
 h1,
@@ -108,7 +108,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
-  color: #212529;
+  color: #6b9080;
 }
 
 #mainNav .navbar-nav > li.nav-link:hover,
@@ -117,7 +117,7 @@ body {
 }
 #mainNav .navbar-nav > li.nav-link.active,
 #mainNav .navbar-nav > li.nav-link:focus.active {
-  color: #cb997e !important;
+  color: #a4c3b2 !important;
   background-color: transparent;
 }
 #mainNav .navbar-nav > li.nav-link.active:hover,
@@ -127,7 +127,7 @@ body {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: #ffe5ec;
+    background-color: #cce3de;
   }
   #mainNav .navbar-brand {
     color: #6b705c;
@@ -317,6 +317,8 @@ div.masthead p {
 }
 
 /* Footer */
+
+
 footer a {
   margin: 20pt;
 }
