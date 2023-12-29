@@ -4,6 +4,10 @@ html {
   height: 100%;
 }
 
+.row {
+  padding-top: 10vh;
+}
+
 body {
   font-family: "Merriweather", "Helvetica Neue", Arial, sans-serif;
 }
@@ -302,8 +306,8 @@ div.masthead p {
 }
 
 .btn-primary {
-  background-color: #6b705c;
-  border-color: #6b705c;
+  background-color: #6b9080;
+  
 }
 .btn-primary:hover,
 .btn-primary:focus,
